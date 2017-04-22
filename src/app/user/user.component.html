@@ -1,0 +1,10 @@
+<h1 class="userdetal">User Details Information</h1>
+<div class="user" *ngIf = "user">
+  <h3>{{user.name | uppercase}}</h3>
+  <!-- the use of pipeline in angularjs2 -->
+  <p>Email: {{user.email}}</p>
+  <small>Followers: {{user.followers}}</small>
+  <p>Company name: {{user.company}}</p>
+  <p>Location: {{user.location}}</p>
+  <h4>Created On: {{user.created_at | date}}</h4>
+</div>

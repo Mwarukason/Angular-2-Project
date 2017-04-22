@@ -1,0 +1,22 @@
+.container{
+    background-color: #f4f4f4;
+}
+.profile-image{
+    height: 100px;
+    width: 100px;
+}
+
+ol user-list{
+    background-color: #f4f4f4;
+}
+.example-card{
+    height: 200px;
+    float: left;
+    margin: 10px;
+}
+
+.div-input{
+    text-align: center;
+    margin: 10px;
+    background-color: #f4f4f4;
+}
